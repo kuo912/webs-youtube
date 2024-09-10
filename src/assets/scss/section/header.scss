@@ -26,6 +26,11 @@
     padding: 10px 0;
     .menu{
         border-bottom: 1px solid var(--black100);
+
+        @media (max-width: 800px){
+            border-bottom: 0;
+        }
+
         li{
             margin-bottom: 5px;
             a {
@@ -120,5 +125,11 @@
     100%{
         transform: rotate(0) scale(1);
         border-radius: 0;
+    }
+}
+
+@media (max-width: 800px){
+    .header__sns{
+        display: none;
     }
 }
