@@ -18,7 +18,7 @@ section{
 }
 
 //마우스 오버 아이콘
-.play_icon{
+.play__icon{
     a{
         position: relative;
         display: block;
@@ -48,7 +48,7 @@ section{
             position: absolute;
             left: 50%;
             top: 50%;
-            transform: translate(-50%);
+            transform: translate(-50%, -50%);
             border-radius: 50%;
             opacity: 0;
             transition: opacity 0.3s;

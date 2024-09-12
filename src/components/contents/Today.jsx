@@ -8,7 +8,7 @@ const Today = () => {
     <div>
       <section id='Today'>
         <div className='today__inner'>
-          <div className='today__thumb play_icon'>
+          <div className='today__thumb play__icon'>
             <Link to={todayText[0].page}>
               <img src={todayText[0].img} alt={todayText[0].title} />
             </Link>
